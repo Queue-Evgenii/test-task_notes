@@ -24,7 +24,7 @@
         <span v-if="errors.content" class="text-red-500 text-sm">{{ errors.content }}</span>
       </div>
 
-      <button type="submit" class="btn bg-blue-500 text-white px-4 py-2 rounded">
+      <button type="submit" class="btn bg-blue-500 text-white px-4 py-2 rounded cursor-pointer">
         {{ isEdit ? 'Save' : 'Create' }}
       </button>
     </form>
